@@ -6,17 +6,6 @@ namespace ASTONTest
     {
         public static void FindSeven()
         {
-            //int num;
-
-            //Console.WriteLine("Введите любое число и нажмите Enter");
-            //num = Convert.ToInt32(Console.ReadLine());
-
-            //if (num > 7)
-            //{
-            //    Console.WriteLine("Привет");
-            //    return;
-            //}
-
             double num;
 
             Console.WriteLine("Введите любое число и нажмите Enter");
@@ -24,8 +13,8 @@ namespace ASTONTest
 
             if (num > 7)
             {
-                Console.WriteLine("Привет " + num);
-                return;
+                Console.WriteLine("Привет");
+                //return;
             }
         }
     }

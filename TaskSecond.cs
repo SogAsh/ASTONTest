@@ -9,12 +9,11 @@ namespace ASTONTest
             string name;
 
             Console.WriteLine("Введите любое имя и нажмите Enter");
-            name = Console.ReadLine();
+            name = Console.ReadLine().ToString();
 
             if (name == "Вячеслав")
             {
                 Console.WriteLine("Привет, Вячеслав");
-                return;
             }
             else
                 Console.WriteLine("Нет такого имени");
