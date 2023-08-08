@@ -14,7 +14,6 @@ namespace ASTONTest
             if (num > 7)
             {
                 Console.WriteLine("Привет");
-                //return;
             }
         }
     }
